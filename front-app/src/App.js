@@ -1,7 +1,10 @@
+import TopBar from "./Components/TopBar";
+import MainPage from "./Components/MainPage/MainPageAll";
 function App() {
   return (
     <div className="App">
-      <h3>NoniGames</h3>
+      <TopBar/>
+      <MainPage/>
     </div>
   );
 }
