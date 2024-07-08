@@ -1,4 +1,4 @@
-
+import NoniLogo from "../Assets/NoniLogo.png"
 
 function TopMenuButton(botonName) {
         return (
@@ -16,7 +16,7 @@ export default function TopBar() {
         <>
             <div className=" w-full h-[150px] bg-blue-900 flex justify-between fixed top-0 drop-shadow-lg">
 
-                <img  alt="Noni_log" className="bg-white h-[100px] w-[100px] my-auto mx-[10%]" />
+                <img src={NoniLogo}  alt="Noni_log" className=" h-[100px] w-[75px] my-auto mx-[10%]" />
 
                 <div className="flex">
                     <TopMenuButton botonName="HOME"/>
