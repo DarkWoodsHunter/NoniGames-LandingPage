@@ -1,10 +1,14 @@
-import TopBar from "./Components/TopBar";
 import MainPage from "./Components/MainPage/MainPageAll";
+import { Route, Routes } from "react-router-dom";
+import MainProducto from "./Components/ProductDescription/MainProducto";
+
 function App() {
   return (
     <div className="App">
-      <TopBar/>
-      <MainPage/>
+      <Routes>
+        <Route exact path='/' element={<MainPage/>}/>
+        <Route path='/Producto' element={<MainProducto/>}/>
+      </Routes>
     </div>
   );
 }

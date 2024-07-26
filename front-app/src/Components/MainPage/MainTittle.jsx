@@ -6,10 +6,12 @@ export default function MainTittle() {
             <div className="flex justify-center h-[700px]">
                 <div className="flex flex-col w-[35%] h-[100%] mt-[1%] pt-[1%]">
                     <img src={LogoText} alt="NoniTitle" className="w-[75%] mx-auto" />
-                    <p className=" text-white text-xl font-black w-[90%] mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p className=" text-white text-[30px] font-Bahnschrift antialiased w-[90%] mx-auto ">
+                        Transformamos ideas en experiencias de juego extraodinarios. Como creadores apasionados, diseñamos mundos únicos donde cada detalle importa y la creatividad no tiene límites.
+                    </p>
                     <div className=" flex justify-end w-[90%] mx-auto mt-auto mb-[5%]">
-                        <div className=" bg-white hover:bg-gray-400 rounded-full w-[30%] h-[75px] flex">
-                            <h2 className="m-auto">Lorem Ipsum</h2>
+                        <div className=" bg-white hover:bg-gray-400 rounded-full w-[40%] h-[75px] flex">
+                            <h2 className="m-auto font-semibold font-Bahnschrift text-blue-600 text-[25px] hover:cursor-pointer ">Contactanos</h2>
                         </div>
                     </div>
                 </div>
